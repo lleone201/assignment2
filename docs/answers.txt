@@ -1,0 +1,44 @@
+3 E a. $ git commit
+hint: Waiting for your editor to close the file...
+[master 83433fd] Committing and Pushing docs/status.txt
+ 1 file changed, 5 insertions(+)
+ create mode 100644 docs/status.txt
+
+
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 493 bytes | 123.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/lleone201/assignment2.git
+   af51535..83433fd  master -> master
+
+b. $ git shortlog -s -n
+     6  Esteban Parra
+     3  lleone201
+
+c. $ git log -1 .gitignore
+commit e424a923e80da4772ca789591ef3326230062a71
+Author: Esteban Parra <estebanpr014@gmail.com>
+Date:   Wed Sep 25 18:13:30 2019 -0400
+
+    -> Tracking .gitignore
+
+d. Branches allow you to have a specific point to revert back to if you need to do that.
+   It also allows you to work on different things in seperate contexts.
+
+e. Git status displays the state of the working directory and staging area. It Lets you see what changes have been staged and which have not. Git log just shows you a running record of commits and can go through name changes.
+
+f. git log --follow --Vehicle.h
+
+g. git log --all --grep='file'
+
+h. Inheritence in OOP is when a a child class inherits properties or methods/functions from its parent class.
+   Polymorphism is when different methods in the same class can have the same name with different parameter lists.
+
+i. The biggest difference between Dictator and Lieutenants workflow and Integration manager workflow is that in integration manager workflow, a developer will have a public and private repository that they push and pull from. Dictator and lieutenants just has a lieutenants repository that all the developers push to.
+
+j. The centralized workflow would be very diffucult for a large team of people to use because every single developer would have to resolve all of the changes before they were able make any of their own changes and it would waste a lot of time and resources as opposed to The Dictator method.
