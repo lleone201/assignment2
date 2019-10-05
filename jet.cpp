@@ -2,7 +2,7 @@
 
 #include "jet.h"
 
-Jet::Jet(string brand, string model, string fuelType int numberOfEngines = 1){
+Jet::Jet(string brand, string model, string fuelType, int numberOfEngines = 1){
     setBrand(brand);
     setModel(model);
     setFuelType(fuelType);
